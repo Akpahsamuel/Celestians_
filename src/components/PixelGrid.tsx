@@ -40,7 +40,7 @@ export function PixelGrid() {
       alert('Please connect your wallet first');
       return;
     }
-
+// This makes users aware if pixel have already been bought.
     const pixel = pixels[y][x];
     if (pixel.owner) {
       alert('This pixel is already owned');
